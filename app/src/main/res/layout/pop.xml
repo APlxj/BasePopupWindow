@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#80333333"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <RadioButton
+            android:id="@+id/rb_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:button="@null"
+            android:checked="true"
+            android:drawableLeft="@drawable/btn_selected_2"
+            android:text="烟酒"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/rb_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:button="@null"
+            android:drawableLeft="@drawable/btn_selected_2"
+            android:text="生活用品"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/rb_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:button="@null"
+            android:drawableLeft="@drawable/btn_selected_2"
+            android:text="饮料"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/rb_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:button="@null"
+            android:drawableLeft="@drawable/btn_selected_2"
+            android:text="办公用品"
+            android:textColor="#fff" />
+
+        <RadioButton
+            android:id="@+id/rb_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:button="@null"
+            android:drawableLeft="@drawable/btn_selected_2"
+            android:text="生鲜"
+            android:textColor="#fff" />
+    </RadioGroup>
+
+</LinearLayout>
